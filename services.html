@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services • Platinum Solar</title>
+  <meta name="description" content="Solar services: residential, commercial, custom systems, maintenance and solar panel cleaning." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container wrap">
+      <a href="about.html" class="brand" aria-label="Platinum Solar home">
+        <img src="assets/logo.svg" alt="Platinum Solar" width="160" height="32" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="about.html" class="">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a class="btn btn-pink" href="services.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1>Our Services</h1>
+      <div class="grid-2">
+        <article class="card">
+          <h2>Residential Installation</h2>
+          <p>Hybrid and backup systems sized for essential loads (lights, Wi‑Fi, TV, fridge) up to full‑home solutions. Neat rooftop arrays with monitoring.</p>
+        </article>
+        <article class="card">
+          <h2>Commercial Installation</h2>
+          <p>Business‑grade PV for offices, retail and light industrial. Demand shaving, backup power and smart metering to cut operational costs.</p>
+        </article>
+        <article class="card">
+          <h2>Custom Solar Systems</h2>
+          <p>Bespoke designs for unique requirements — farms, lodges, telecom sites and containerised systems with generators where needed.</p>
+        </article>
+        <article class="card">
+          <h2>Maintenance</h2>
+          <p>Annual inspections, performance checks, firmware updates, cable and protection verification — keep your system safe and efficient.</p>
+        </article>
+        <article class="card">
+          <h2>Solar Panel Cleaning</h2>
+          <p>Safe panel cleaning to restore yield, using de‑ionised water and soft tools. Scheduled visits or once‑off call‑outs.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact us for a quote</h2>
+      <p class="lead">Email us at <a href="mailto:platinumsolar.za@gmail.com">platinumsolar.za@gmail.com</a> or use the form below.</p>
+
+      <form id="contactForm" class="card" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <div class="grid-2">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" required placeholder="Your name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          </div>
+          <div class="field">
+            <label for="phone">Phone / WhatsApp</label>
+            <input id="phone" name="phone" inputmode="tel" placeholder="+27 ..." />
+          </div>
+          <div class="field">
+            <label for="service">Service needed</label>
+            <select id="service" name="service" required>
+              <option value="" selected disabled>Select a service…</option>
+              <option>Residential installation</option>
+              <option>Commercial Installation</option>
+              <option>Custom Solar systems</option>
+              <option>Maintenance</option>
+              <option>Solar Panel Cleaning</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="location">City / Province</label>
+          <input id="location" name="location" placeholder="e.g. Johannesburg, Gauteng" />
+        </div>
+        <div class="field">
+          <label for="message">Details</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your roof type, appliances, and load‑shedding concerns…"></textarea>
+        </div>
+        <p class="small">Submitting sends your enquiry to platinumsolar.za@gmail.com. We only use your info to reply with a quote.</p>
+        <button class="btn btn-accent" type="submit">Send enquiry</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer">
+    <div class="container wrap">
+      <div>
+        <img src="assets/logo.svg" alt="Platinum Solar" width="140" height="28" />
+        <p>Premium solar panel installations across South Africa. Residential, commercial and custom systems.</p>
+      </div>
+      <div>
+        <a class="btn btn-accent" href="mailto:platinumsolar.za@gmail.com">platinumsolar.za@gmail.com</a>
+      </div>
+    </div>
+    <div class="bottom"><small>© 2025 Platinum Solar. All rights reserved.</small></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
